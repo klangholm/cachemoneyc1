@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct tab {
+struct Tab {
     var person: String
     var description: String
     var price: Int
@@ -18,17 +18,17 @@ class Profile : NSObject {
     
     fileprivate var name: String
     fileprivate var pic: UIImage?
-    fileprivate var runningTabs: Array<tab>?
+    fileprivate var runningTabs = [Tab]()//Array<Tab>?
     
     init(name: String) {
         self.name = name
     }
     
     
-    func addTab(new: tab) {
-        letlim = runningTabs?.count
+    func addTab(new: Tab) {
+        let lim = runningTabs.count
         
-        runningTabs?[lim!] = new
+        runningTabs[lim] = new
         
     }
     
@@ -36,8 +36,8 @@ class Profile : NSObject {
         return self.name
     }
     
-    var getRunningTabs: Array<tab> {
-        return self.runningTabs!
+    var getRunningTabs: Array<Tab> {
+        return self.runningTabs
     }
     
     
