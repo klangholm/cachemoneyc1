@@ -17,6 +17,7 @@
 		542703AD1EE83EB30093C0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542703AB1EE83EB30093C0C9 /* LaunchScreen.storyboard */; };
 		542703B81EE83EB30093C0C9 /* HackathonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542703B71EE83EB30093C0C9 /* HackathonAppTests.swift */; };
 		542703C31EE83EB30093C0C9 /* HackathonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542703C21EE83EB30093C0C9 /* HackathonAppUITests.swift */; };
+		542703D11EE86D130093C0C9 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542703D01EE86D130093C0C9 /* Meal.swift */; };
 		B30B0D4D595CDCAE3E138A9B /* Pods_HackathonAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CFDA73D1C4136A40601093 /* Pods_HackathonAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		542703BE1EE83EB30093C0C9 /* HackathonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackathonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		542703C21EE83EB30093C0C9 /* HackathonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonAppUITests.swift; sourceTree = "<group>"; };
 		542703C41EE83EB30093C0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542703D01EE86D130093C0C9 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		5B38979C7791730846EFAC77 /* Pods-HackathonAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonAppUITests/Pods-HackathonAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		613F8DCAD352C8C520B5DBC9 /* Pods-HackathonAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonAppTests/Pods-HackathonAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		64ED26F19DA3C95686503BC0 /* Pods-HackathonAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonAppUITests/Pods-HackathonAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				2A3A15561EE8698500A7EAFB /* Profile.swift */,
+				542703D01EE86D130093C0C9 /* Meal.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542703D11EE86D130093C0C9 /* Meal.swift in Sources */,
 				542703A51EE83EB30093C0C9 /* ViewController.swift in Sources */,
 				2A3A15571EE8698500A7EAFB /* Profile.swift in Sources */,
 				542703A31EE83EB30093C0C9 /* AppDelegate.swift in Sources */,
