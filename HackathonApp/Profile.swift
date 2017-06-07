@@ -18,7 +18,7 @@ class Profile : NSObject {
     
     fileprivate var name: String
     fileprivate var pic: UIImage?
-    fileprivate var runningTabs: Array<Tab>?
+    fileprivate var runningTabs = [Tab]()//Array<Tab>?
     
     init(name: String) {
         self.name = name
@@ -26,9 +26,9 @@ class Profile : NSObject {
     
     
     func addTab(new: Tab) {
-        letlim = runningTabs?.count
+        let lim = runningTabs.count
         
-        runningTabs?[lim!] = new
+        runningTabs[lim] = new
         
     }
     
@@ -37,7 +37,7 @@ class Profile : NSObject {
     }
     
     var getRunningTabs: Array<Tab> {
-        return self.runningTabs!
+        return self.runningTabs
     }
     
     
